@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Runtime;
 
-namespace Snake
+namespace Snake_Game
 {
     class Settings : UIBuilder
     {
@@ -55,7 +55,7 @@ namespace Snake
             BuildSelection("Settings", selections);
             int num = SelectionInputHandler(selections.Count);
 
-            if (num == 1) 
+            if (num == 1)
                 InputValue("Specify a width(1-50): ", ref _width);
             else if (num == 2) InputValue("Specify a height(1-50): ", ref _height);
         }

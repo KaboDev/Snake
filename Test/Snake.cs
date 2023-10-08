@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace Snake
+namespace Snake_Game
 {
     class Snake
     {

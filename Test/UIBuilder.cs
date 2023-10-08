@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Snake
+namespace Snake_Game
 {
     class UIBuilder
     {
@@ -22,9 +22,9 @@ namespace Snake
             for (int i = 0; i < selections.Count; i++)
             {
                 string selectionString = "|";
-                for (int j = 0; j < (topLine.Length / 2) - 6; j++) selectionString += ' ';
+                for (int j = 0; j < topLine.Length / 2 - 6; j++) selectionString += ' ';
                 selectionString += $"{i + 1}. {selections[i].Name}";
-                int spacesRemaining = (topLine.Length - selectionString.Length);
+                int spacesRemaining = topLine.Length - selectionString.Length;
                 for (int k = 1; k < spacesRemaining; k++) selectionString += " ";
                 selectionString += "|";
 

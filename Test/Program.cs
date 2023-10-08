@@ -9,7 +9,7 @@ enum Direction
     None
 }
 
-namespace Snake
+namespace Snake_Game
 {
     class Program
     {
@@ -18,7 +18,7 @@ namespace Snake
             Console.Title = "🐍 Snake";
 
             Menu _menu = new Menu();
-            Settings _settings = new Settings(8,4, 2); //larger speed value => faster
+            Settings _settings = new Settings(8, 4, 2); //larger speed value => faster
 
             while (true)
             {

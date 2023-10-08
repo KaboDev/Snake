@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Snake
+namespace Snake_Game
 {
     class Grid
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Threading;
-namespace Snake
+namespace Snake_Game
 {
     class Game
     {
